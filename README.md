@@ -10,20 +10,20 @@ Transaction details stored in user accounts
 ## Installation
 To run the STOCK-HOME application locally, you'll need to follow these steps:
 
-Clone the repository: git clone https://github.com/YOUR-USERNAME/STOCK-HOME.git
+Clone the repository: git clone https://github.com/rajsanu/Stock-Home.git
 Navigate to the project directory: cd STOCK-HOME
 Install the required packages: pip install -r requirements.txt
-Obtain an API key from Alpha Vantage: https://www.alphavantage.co/support/#api-key
+Obtain an API key from IEX API: iexcloud.io/cloud-login#/register/
 Add the API key to your environment variables: export API_KEY="YOUR-API-KEY"
 Run the application: python app.py
 
 ## Usage
 Once the application is running, you can access it at http://localhost:5000/ in your web browser. You can register a new user account by clicking on the "Register" link on the navigation bar. After registering, you can log in using your username and password.
 
-The home page displays a list of stocks and their current prices. You can view more information about a specific stock by clicking on its name. To simulate buying and selling stocks, click on the "Portfolio" link on the navigation bar. Here, you'll see a list of the stocks you own and their current prices. You can simulate buying and selling stocks by entering the desired quantity and clicking on the "Buy" or "Sell" button.
+Once you register, you will be awarded a certain amount of virtual(fake) money using which buying and selling of stocks can be simulated. The home page will display a number of options in the navigation bar. By selecting "Quote" option, you can view the stock's real time price by entering the stock symbol. By clicking on "Sell", you will be able to simulate the selling of stocks that you have bought at stock's current price. You can also buy stocks with the virtual money present in your account. You can view the details of all your past transactions by clicking on "records" symbol. And, by clicking "logout", you can log out from the website
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
